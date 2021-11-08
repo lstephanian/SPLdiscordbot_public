@@ -30,7 +30,7 @@ result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
 rows = result.get('values')
 
 # #################### READ WALLET BALANCES ####################
-mint_address = "INSERT MINT ADDRESS" #this is the mint address for your SLP token
+mint_address = "INSERT MINT ADDRESS" #this is the mint address for your SPL token
 minimum_tokens = 10 #change this to minimum thresholds to become a member
 members = []
 
